@@ -59,7 +59,7 @@ body{
     border-radius: 20px;
 }
 .box{
-    display: inline-flex;
+    display: flex;
     margin-left: 120px;
     margin-top: 20px;
     
@@ -70,11 +70,6 @@ body{
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-}
-.test{
-    text-align: center;
-    padding-left: 30px;
-    margin-left: 30px;
 }
 .fan{
     display: flex;
@@ -99,4 +94,25 @@ footer{
     text-align: center;
     padding: 50px 20px;
     
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+    font-size: 20px;
+    padding-bottom: 40px;
+    
+}
+.list{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 100px;
+    /*background-image: linear-gradient(rgba(241, 211, 211, 0.507) ,rgb(247, 212, 206));*/
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    margin-left: 110px;
+    margin-right: 120px;
+    background-image: url(imagess/Frame\ 58.jpg);
+    background-size: 1200px 600px;
+    background-repeat: no-repeat;
 }
