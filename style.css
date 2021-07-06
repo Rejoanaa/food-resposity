@@ -10,13 +10,15 @@ body{
 }
 .network{
     width: 50%;
-    font-size: 25px;
     margin-top: 30px;
 }
 .network image{
      width: 100%;
      
-}   
+} 
+.network h1{
+    font-size: 35px;
+}
 #pad{
     margin-top: 100px;
 }
@@ -40,10 +42,32 @@ body{
     padding: 10px 20px;
     font-weight: 300 ;
     border-radius: 10px;
+    
 }
 .back{
     background-image: url(imagess/Frame\ 58.jpg);
-    
     background-repeat:no-repeat ;
     background-size: 1350px 600px;
+}
+.food{
+    text-align: center;
+
+}
+.image{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+.box{
+    display: inline-flex;
+    margin-left: 120px;
+    margin-top: 20px;
+    
+}
+.fit{
+    margin: 10px 40px 10px 0;
+    box-shadow: 10px 10px 100px rgb(204, 161, 161);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
 }
