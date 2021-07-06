@@ -71,6 +71,11 @@ body{
     border-radius: 20px;
     text-align: center;
 }
+.test{
+    text-align: center;
+    padding-left: 30px;
+    margin-left: 30px;
+}
 .fan{
     display: flex;
     margin-left: 110px;
